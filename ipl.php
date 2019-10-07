@@ -56,7 +56,7 @@ class IPL {
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=3.0, user-scalable=1">
         <?
-        include 'kaboom.php';
+        $this->kaboom();
         $param = explode('event/', $wp->request);
         $str_arr2 = explode("/",end($param));
         $str = $str_arr2[0];
